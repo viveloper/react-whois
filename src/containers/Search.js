@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col, Typography } from 'antd';
 import Settings from '../components/Search/Settings';
+import SearchInput from '../components/Search/SearchInput';
 
 function Search() {
   return (
@@ -16,7 +17,9 @@ function Search() {
         </Col>
       </Row>
       <Row justify="center" style={{ marginTop: 50 }}>
-        <Col span={12}>검색</Col>
+        <Col span={12}>
+          <SearchInput />
+        </Col>
       </Row>
     </>
   );
