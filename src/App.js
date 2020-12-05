@@ -1,5 +1,7 @@
 import React from 'react';
+import 'antd/dist/antd.css';
+import Search from './containers/Search';
 
 export default function App() {
-  return <div>찾아야한다</div>;
+  return <Search />;
 }
